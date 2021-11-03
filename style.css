@@ -1,0 +1,114 @@
+body
+{
+	margin-top: 100px;
+	margin-bottom: auto;
+	background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+	.login_div1
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		margin-right:300px ;
+		font-family: 'Texturina', serif;
+		background-color: #ffa500;
+		color:white;
+		box-shadow: 0 0 20px #eee;
+
+
+	}
+	.login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		margin-left: 300px;
+		font-family: 'Texturina', serif;
+		background-color: #ffa500;
+		color:white;
+		box-shadow: 0 0 20px #eee;
+
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+.btn-grad {
+background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%);
+font-family: 'Texturina', serif;
+font: size 40px;
+margin-right: 300px;
+}
+.btn-grad {
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   text-shadow: 0 0 20px #eee;
+   border-color:white;
+
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   border-color:white;
+
+ }
+ #player_1_name_input {
+	background-color:navy;
+	color:white;
+ }
+
+ #title{
+	font-family: 'Texturina', serif;
+	color: white;
+	margin-bottom: 40px;
+	font-size: 50px;
+	text-shadow: 0 0 20px #eee;
+	transition: 0.2s;
+ }
+ #title:hover{
+	 font-size:55px;
+
+ }
+
+ #player1_login, #player2_login{
+	 margin-bottom: 20px;
+	 text-shadow: 0 0 20px #eee;
+
+ }
+ #player_2_name_input {
+	background-color:navy;
+	color:white;
+ }
+

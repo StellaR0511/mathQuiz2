@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Math Quiz Game</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Texturina:wght@500&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="main.js"></script>
+</head>
+<body>
+<center>
+	<h1 id="title">The Math Quiz Game</h1>
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+		<h2 id="player1_login">Player 1 Login</h2>
+		<label style="font-size: 20px;">User Name:</label>
+		<br>
+		<input type="text" class="form-control" id="player_1_name_input" placeholder="Enter Player 1's Name">
+		<br>
+	</div>
+	<br>
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+		<h2 id="player2_login">Player 2 Login</h2>
+		<label style="font-size: 20px;">User Name:</label>
+		<input type="text" class="form-control" id="player_2_name_input" placeholder="Enter Player 2's Name">
+		<br>
+	</div>
+	<br>
+	<button class="btn btn-primary btn-grad" onclick="addUser()" style="width:30%"><h5>Start Game</h5></button>
+</center>
+</body>
+</html>
