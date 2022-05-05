@@ -74,14 +74,16 @@ margin-right: 300px;
    border-radius: 10px;
    display: block;
    text-shadow: 0 0 20px #eee;
-   border-color:white;
+   border-color:transparent;
+   font-size: 20px;
 
  }
 
  .btn-grad:hover {
    background-position: right center; /* change the direction of the change here */
    color: #fff;
-   border-color:white;
+   border-color:transparent;
+   font-size: 25px;
 
  }
  #player_1_name_input {

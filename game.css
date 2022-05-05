@@ -1,14 +1,22 @@
 #output{
     background: white;
     border-radius: 10px;
-    border-top:10px solid #AA4465;
+    border-top:15px solid rgb(255, 131, 245);
+    box-shadow: 0 0 20px black;
     padding:10px;
     float: none;
     text-align: left;
 }
+#output:hover{
+    box-shadow: 0 0 20px white;
+}
 
 body {
-    background: #ce4a4a; 
+    background: #FEAC5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin-bottom: 60px;
+
 } 
 .login_div1 , .login_div2 { 
     background: white; 
@@ -20,10 +28,150 @@ body {
     display: inline-block; 
     margin-left: 20px; 
 } 
-#word { 
-    width: 60%; 
-} 
-#word_display { 
-    letter-spacing: 5px; 
+h2, h3 {
+    color:white;
+    font-family: 'Texturina', serif;
+    text-shadow: 0 0 10px black;
+
+    
 }
+#question_number{
+    color: black;
+    font-family: 'Gluten', cursive;    
+    font-size: 30px;
+}
+#answer_box{
+    color: black;
+    font-family: 'Fraunces', serif;
+}
+#input_check_box {
+    color: black;
+    font-family: 'Gluten', cursive;
+    font-size: large;
+    box-shadow: 0 0 10px black;
+}
+#title{
+	font-family: 'Texturina', serif;
+	color: white;
+	margin-bottom: 40px;
+	font-size: 50px;
+	text-shadow: 0 0 20px black;
+	transition: 0.2s;
+ }
+ #title:hover{
+	 font-size:55px;
+
+ }
+    
+ .btn-grad {
+   margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+    display: block;
+    font-family: 'Texturina', serif;
+    background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%);
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  .btn-grad:active{
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    font-family: 'Texturina', serif;
+    background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%);      
+  }
+  .btn-grad:disabled{
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    font-family: 'Texturina', serif;
+    background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%);  
+  }
+  
+  .btn-grad2 {background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)}
+  .btn-grad2 {
+     margin: 10px;
+     padding: 5px 15px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px black;
+     border-radius: 10px;
+     display: block;
+     font-size: small;
+     border-color: black;
+     border-width: thin;
+     border-style: double;
+     font-family: 'Fraunces', serif;
+     text-shadow: 0 0 15px black;
+     
+   }
+
+   .btn-grad2:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+     border-color: black;
+     border-style: double;
+   }
+   #number1, #number2{
+     color:white;
+     background-color: #293744;
+     font-family: 'Gluten', cursive;
+     font-size: 25px;
+     text-shadow: 0 0 2px white;
+     box-shadow: 0 0 20px black;
+   }
+   #player1_score, #player2_score{
+    color:white;
+    font-family: 'Texturina', serif;
+    text-shadow: 0 0 10px black;
+    font-size: 30px;
+   }
+  .veryImportant{
+      font-weight: 1000;
+      color: red;
+  }
+  label{
+    font-family: 'Texturina', serif;
+    font-size: 15px;
+    transition: 00.2s;
+    text-shadow: 0 0 20px black;
+    color: white;
+  }
+  label:hover{
+      font-size: 17px;
+  }
+  
+ 
+    
+
+
+
 

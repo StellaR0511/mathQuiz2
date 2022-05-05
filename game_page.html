@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>The Math Quiz Game</title>
-
+	<title>The Multiplication Quiz Game</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500&family=Gluten:wght@600&family=Grandstander:wght@500&family=Texturina:wght@500&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -18,19 +20,26 @@
 <span id="player2_score"></span>
 <div class="container">
 	<center>
-		<h2 style="color: white;">The Math Quiz Game</h2>
+		<h2 id="title">The Multiplication Quiz Game</h2>
 		<h3 id="player_question"></h3>
 		<h3 id="player_answer"></h3>
+		<br>
+
 		<div id="output" class="col-lg-6"></div>
+		<br>
+		<h3 id="real_answer"></h3>
+		<br>
 		<br>
 		<br>
 		<h3>Number 1</h3>
-		<input type="text"id="number_1"class="form-control" placeholder="Enter Number 1 Here">
+		<input type="text"id="number1"class="form-control" placeholder="Enter Number 1 Here">
 		<br>
+		<label><label class="veryImportant">Remember:</label> 'Answer Turn' is the one who answers the question and can score a point, while the 'Question Turn' makes the question.</label>
+		
 		<h3>Number 2</h3>
-		<input type="text"id="number_2"class="form-control" placeholder="Enter Number 2 Here">
+		<input type="text"id="number2"class="form-control" placeholder="Enter Number 2 Here">
 		<br>
-		<button onclick="send()" class="btn btn-sucess">Send</button>
+		<button onclick="send()" class="btn btn-grad">Send</button>
 	</center>
 </div>
 
